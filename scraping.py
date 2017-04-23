@@ -61,5 +61,5 @@ class Scraping:
         files.close()
         print("done successfull meta...")
 
-app = Scraping("https://www.reparizy.com")
+app = Scraping("https://www.youtube.com")
 app.runGet_meta()
